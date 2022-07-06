@@ -1,0 +1,82 @@
+{% extends 'base.html' %}
+{% block content %}
+    
+    <!---Inicio-->
+    <div class="container">
+      <div>
+        <div class="parent">
+          <img id="foto-header"src="static/images/ruta.jpg">
+        </div>
+        <header>
+          <div id="alinear"> 
+            <h1 id="h1">Encuentra tu ruta hoy!</h1>
+          </div>
+            <p id="subtitulo">Aprende desarrollo con los mejores cursos online</p>
+            <div id="contenedor-boton">
+              <a id="boton-comenzar" href="#" class="btn btn-primary mb-2">Comenzar</a>
+            </div> 
+        </header>
+      </div>
+
+        <!--Nosotros-->
+
+      <div class="row" id="nosotros">
+        <h3 id="nosotros" class="mt-4">Nosotros</h3>
+          <div class="card mt-2 mb-2" style="width: 19rem;" id="card-1">
+            <div class="card-body">
+              <h5 class="card-title">Ulises Baretta</h5>
+              <p class="card-text">Desarrollador Frontend</p>
+              <a href="https://www.linkedin.com/in/ulises-baretta/" class="btn btn-primary">LinkedIn</a>
+            </div>
+          </div>
+
+          <div class="card ml-auto mt-2 mb-2" style="width: 19rem;" id="card-2">
+            <div class="card-body">
+              <h5 class="card-title">Ulises Baretta</h5>
+              <p class="card-text">Desarrollador Backend</p>
+              <a href="https://www.linkedin.com/in/ulises-baretta/" class="btn btn-primary">LinkedIn</a>
+            </div>
+          </div>
+
+          <div class="card mt-2 mb-2" style="width: 19rem;" id="card-3">
+            <div class="card-body">
+              <h5 class="card-title">Ulises Baretta</h5>
+              <p class="card-text">CEO/CTO</p>
+              <a href="https://www.linkedin.com/in/ulises-baretta/" class="btn btn-primary">LinkedIn</a>
+            </div>
+          </div>
+      </div>
+      
+        <!--footer-->
+      <div class="row" id="redes"> 
+        <h3 id="redes" style='text-align:center' class="mt-4">Contactanos</h3>
+          <footer id="contacto">
+            <div class="row mt-4">
+              <div class="col-7 col-lg-3 offset-lg-1 mb-2">
+                <span class="fs-5">Rutasdev</span>
+                  <ul class="list-unstyled small text-muted">
+                    <li class="mb-2">Diseñado y construido con todo el amor y cafe del mundo</li>
+                    <li class="mb-2">Currently v1.0 Alpha</li>
+                  </ul>
+              </div>
+              <div class="col-6 col-lg-3 offset-lg-1 mb-2">
+                <h5>Links</h5>
+                  <ul class="list-unstyled small text-muted">
+                    <li class="mb-2"><a href="#">Github </a><i class="fa-brands fa-github"></i></li>
+                    <li class="mb-2"><a href="https://www.linkedin.com/in/ulises-baretta/">LinkedIn </a><i class="fa-brands fa-linkedin"></i></li>
+                    <li class="mb-2"><a href="https://twitter.com/rutasdev">Twitter </a><i class="fa-brands fa-twitter"></i></li>
+                    <li class="mb-2"><a href="mailto:rutasdeveloper@gmail.com">Email </a><i class="fa-solid fa-envelope"></i></li>  
+                  </ul>
+              </div>
+              <div class="col-6 col-lg-3 mb-2">
+                <h5>Donaciónes</h5>
+                <ul class="list-unstyled">
+                  <li class="mb-2"><a href='https://cafecito.app/ulisao' rel='noopener' target='_blank'><img srcset='https://cdn.cafecito.app/imgs/buttons/button_6.png 1x, https://cdn.cafecito.app/imgs/buttons/button_6_2x.png 2x, https://cdn.cafecito.app/imgs/buttons/button_6_3.75x.png 3.75x' src='https://cdn.cafecito.app/imgs/buttons/button_6.png' alt='Invitame un café en cafecito.app' /></a></li>
+                </ul>
+              </div>
+            </div>
+          </footer>
+      </div>
+    </div>
+  
+{% endblock %}

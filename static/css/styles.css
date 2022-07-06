@@ -1,0 +1,120 @@
+/* 
+Principal
+*/
+
+body{
+    background-color: #f9f9f9   !important;
+}
+
+a { text-decoration: none; 
+    color: black;} 
+
+#navbar{
+    background-color: #48B3E7!important;
+    border-bottom: 1px solid #e7e7e7;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 0;
+    width: 100%;
+}
+
+#h1{
+    font-size: 3.5em;
+    color: #000;
+    margin-bottom: 0;
+    margin-top: 3px;
+}
+
+#alinear{
+    text-align: center;
+}
+
+#subtitulo{
+    font-size: 2em;
+    color: #000;
+    margin-bottom: 10px;
+    margin-top: 3px;
+    text-align: center;
+}
+
+#contenedor-boton{
+    width: 100%;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#boton-comenzar{
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+foto-header{
+    display: block;
+    margin: 0px auto;
+    margin-top: 25px;
+}
+
+.parent{
+    text-align: center;
+}
+
+#card-1{
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+}
+
+#card-2{
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#card-3{
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+}
+
+#nosotros{
+    text-align: center;
+}
+
+#redes{
+    text-align: center;
+}
+
+#contacto{
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+    padding: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
